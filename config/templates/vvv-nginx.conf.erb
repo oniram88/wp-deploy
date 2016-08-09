@@ -1,0 +1,10 @@
+server {
+    listen			80;
+    server_name		<%= wp_siteurl.gsub("http://","") %>;
+
+    root			{vvv_path_to_folder};
+
+    include			/etc/nginx/nginx-wp-common.conf;
+
+
+}

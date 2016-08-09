@@ -7,7 +7,7 @@
   define('DB_COLLATE', '');
   define('WPLANG', '');
 
-	$table_prefix  = 'wp_';
+	$table_prefix  = '<%= table_prefix || 'wp_' %>';
 
 	<%= secret_keys %>
 
